@@ -16,6 +16,12 @@ app.get('/ui/style.css', function (req, res) {
 app.get('/article-one',function(req,res){
    res.send('Article one is requested so it is being served'); 
 });
+app.get('/article-two',function(req,res){
+   app.send('Article two requested and it i s being served'); 
+});
+app.get('/article-three',function(req,res){
+    app.send('Article three requested and it is being served');
+});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
