@@ -17,7 +17,7 @@ app.get('/article-one',function(req,res){
    res.send('Article one is requested so it is being served'); 
 });
 app.get('/article-two',function(req,res){
-   app.send('Article two requested and it i s being served'); 
+   res.send('Article two is requested so it is being served'); 
 });
 app.get('/article-three',function(req,res){
     app.send('Article three requested and it is being served');
