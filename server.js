@@ -20,7 +20,7 @@ app.get('/article-two',function(req,res){
    res.send('Article two is requested so it is being served'); 
 });
 app.get('/article-three',function(req,res){
-    app.send('Article three requested and it is being served');
+    res.send('Article three requested and it is being served');
 });
 
 app.get('/ui/madi.png', function (req, res) {
